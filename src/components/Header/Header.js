@@ -11,7 +11,7 @@ const Header = () => {
           <h1>New Day Mental Health Services</h1>
         </Link>
         <Link className='header__logo' to='/'>
-          <img className='header__logo' src={dove} alt='dove logo' />
+          <img className='header__logo' src={dove} alt='Dove Logo' />
         </Link>
       </div>
       <nav className='nav'>
@@ -21,7 +21,9 @@ const Header = () => {
         <Link to='/aboutme'>
         <li className='nav__item'>About Me</li>
         </Link>
+        <Link to='/individualpsychotherapy'>
         <li className='nav__item'>Individual Psychotherapy</li>
+        </Link>
         <li className='nav__item'>Contact</li>
       </nav>
     </header>

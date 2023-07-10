@@ -28,7 +28,7 @@ const AboutMe = () => {
           <li>Women's Issues</li>
           <li>Healing from Narcissistic Abuse</li>
         </ul>
-        <img src={selfie} />
+        <img src={selfie} alt='Kathy Martello Selfie' />
       </div>
     </section>
   );

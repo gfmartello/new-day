@@ -6,7 +6,11 @@
     list-style: none;
     &-container {
       display: flex;
+      flex-direction: column;
       justify-content: space-evenly;
+      @include tablet {
+        flex-direction: row;
+      }
     }
   }
 }

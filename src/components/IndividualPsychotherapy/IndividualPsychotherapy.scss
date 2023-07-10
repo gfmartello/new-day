@@ -1,0 +1,8 @@
+@use '../../styles/partials/mixins' as *;
+
+.individual-psychotherapy {
+  padding: 0rem 5%;
+  &__list {
+    list-style-type: none;
+  }
+}

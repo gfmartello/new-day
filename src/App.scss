@@ -1,3 +1,5 @@
+@use './styles/partials/mixins' as *;
+
 .App {
   text-align: center;
   &__btn {
@@ -8,6 +10,7 @@
     border-width: thin;
     border-radius: 0.5rem;
     font-size: 1.25rem;
+    margin: 5% 0;
     padding: 0 1rem;
     &-img {
       height: 5vh;
