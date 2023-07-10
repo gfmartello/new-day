@@ -16,7 +16,7 @@ function App() {
           <Route path='/aboutme' element={<AboutMe/>}/>
         </Routes>
         <Link to='https://www.zocdoc.com/practice/new-day-mental-health-75644?lock=true&isNewPatient=false&referrerType=widget'>
-          <button className='App__btn'>Book On Zocdoc</button>
+          <button className='App__btn'>Book On <br /> <img className='App__btn-img' src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/ZocDoc_logo.png/1200px-ZocDoc_logo.png' /></button>
         </Link>
         <Footer />
       </BrowserRouter>

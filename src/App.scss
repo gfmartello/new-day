@@ -1,13 +1,17 @@
 .App {
   text-align: center;
   &__btn {
-    height: 3rem;
+    height: 4rem;
     width: 10rem;
     background-color: yellow;
     cursor: pointer;
     border-width: thin;
     border-radius: 0.5rem;
     font-size: 1.25rem;
+    padding: 0 1rem;
+    &-img {
+      height: 5vh;
+    }
   }
 }
 

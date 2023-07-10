@@ -2,7 +2,11 @@
 
 .about-me {
   padding: 0rem 5%;
-  // &__blurb {
-  //   padding: 0rem 5%;
-  // }
+  &__list {
+    list-style: none;
+    &-container {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
 }
