@@ -19,12 +19,14 @@ const Header = () => {
           <li className='nav__item'>Home</li>
         </Link>
         <Link to='/aboutme'>
-        <li className='nav__item'>About Me</li>
+          <li className='nav__item'>About Me</li>
         </Link>
         <Link to='/individualpsychotherapy'>
-        <li className='nav__item'>Individual Psychotherapy</li>
+          <li className='nav__item'>Individual Psychotherapy</li>
         </Link>
-        <li className='nav__item'>Contact</li>
+        <Link to='/contact'>
+          <li className='nav__item'>Contact</li>
+        </Link>
       </nav>
     </header>
   );
