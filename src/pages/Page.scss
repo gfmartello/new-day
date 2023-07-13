@@ -1,6 +1,11 @@
 @use '../styles/partials/mixins' as *;
 
 .main {
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin: 2% 5%;
+  padding: 0.15625rem;
+  box-shadow: 5px 5px 10px black;
   &__blurb {
     padding: 0rem 5%;
   }

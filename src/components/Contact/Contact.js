@@ -1,8 +1,9 @@
 import React from 'react';
+import './Contact.scss'
 
 const Contact = () => {
   return (
-    <section>
+    <section className='contact'>
       <h1>Contact</h1>
       To book a session, please email me at <a href='mailto:kathymartello@gmail.com'>kathymartello@gmail.com</a>
       <br /> <br />

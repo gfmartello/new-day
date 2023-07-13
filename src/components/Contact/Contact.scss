@@ -1,1 +1,9 @@
 @use '../../styles/partials/mixins' as *;
+
+.contact {
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin: 2% 5%;
+  padding: 2%;
+  box-shadow: 5px 5px 10px black;
+}

@@ -1,9 +1,10 @@
 import React from 'react';
+import './Footer.scss'
 
 const Footer = () => {
   return (
-    <footer>
-      
+    <footer className='footer'>
+      <p>© NEW DAY MENTAL HEALTH COUNSELING SERVICES PLLC</p>
     </footer>
   );
 };
