@@ -4,5 +4,9 @@
   padding: 0rem 5%;
   &__list {
     list-style-type: none;
+    padding-inline-start: 0;
+    &-item {
+      text-align: center;
+    }
   }
 }

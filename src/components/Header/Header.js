@@ -15,17 +15,17 @@ const Header = () => {
         </Link>
       </div>
       <nav className='nav'>
-        <Link to='/'>
-          <li className='nav__item'>Home</li>
+        <Link className='nav__item' to='/'>
+          <li>Home</li>
         </Link>
-        <Link to='/aboutme'>
-          <li className='nav__item'>About Me</li>
+        <Link className='nav__item' to='/aboutme'>
+          <li>About Me</li>
         </Link>
-        <Link to='/individualpsychotherapy'>
-          <li className='nav__item'>Individual Psychotherapy</li>
+        <Link className='nav__item' to='/individualpsychotherapy'>
+          <li>Individual Psychotherapy</li>
         </Link>
-        <Link to='/contact'>
-          <li className='nav__item'>Contact</li>
+        <Link className='nav__item' to='/contact'>
+          <li>Contact</li>
         </Link>
       </nav>
     </header>
