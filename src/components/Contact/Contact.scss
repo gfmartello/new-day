@@ -9,4 +9,9 @@
   padding-right: 2.5%;
   padding-bottom: 2.5%;
   box-shadow: 5px 5px 10px black;
+  &__link {
+    &:hover {
+      color: hotpink;
+    }
+  }
 }
